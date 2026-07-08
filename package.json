@@ -1,0 +1,17 @@
+{
+  "name": "pdf-genie-bot",
+  "version": "1.0.0",
+  "description": "PDF Genie - bot Telegram utilitaire PDF (fusion, division, extraction texte) avec paiement Telegram Stars pour le premium.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
